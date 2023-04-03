@@ -14,3 +14,11 @@ If the current player clicks on HOLD, then the Current Score will be added to th
 All the scores are set to 0 and Player 1 is set as the starting player (current player).
 Making of Game: Being a game rendered by the web browser, it is built by the help of HTML, CSS (for the Front-end) and JavaScript (for the Back-end). The main logic of the game lies in the JS file whereas the appearance and the User Interface is rendered by HTML and CSS. 
 
+<img src="/images/dice-3.png">
+<img src="pig-game-flowchart.png">
+
+<p align="center">
+  <img src="pig-game-flowchart.png" width="350" title="hover text">
+</p>
+
+![Screenshot](screenshot.png)
