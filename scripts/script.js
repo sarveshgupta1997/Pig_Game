@@ -12,11 +12,11 @@ document.querySelector('.btn--roll').addEventListener("click" , function(){
 		// 2. Dissplay the result
 		var dice_dom = document.querySelector('.dice');  // selecting the dice class where it is called
 		dice_dom.style.display = "block";                // unhiding the dice image
-		dice_dom.src = "Pig_Game/images/dice-" + dice + ".png";          // showing the selected dice image
+		dice_dom.src = "/Pig_Game/images/dice-" + dice + ".png";          // showing the selected dice image
 
 		//or can this can also be used instead of above meatod
 		document.querySelector('.dice').style.display = "block";            // unhiding the dice image
-		document.querySelector('.dice').src = "Pig_Game/images/dice-" + dice + ".png";      // showing the selected dice image
+		document.querySelector('.dice').src = "/Pig_Game/images/dice-" + dice + ".png";      // showing the selected dice image
 
 		//3. Updating the round score if rolled number is not 1.
 		if(dice !== 1){
